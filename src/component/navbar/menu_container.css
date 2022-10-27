@@ -1,0 +1,48 @@
+.menu_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 0 4%;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabbed_navigation_container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.tabbed_navigation_single {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  height: 100%;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-left: 18px;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.game {
+  color: #db0000;
+}
+
+h1 {
+  color: antiquewhite;
+}
