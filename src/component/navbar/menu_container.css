@@ -6,10 +6,22 @@
   padding: 0 4%;
 }
 
+.left-nav {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.right-nav {
+  justify-content: flex-end;
+}
+
 .logo_container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .tabbed_navigation_container {
@@ -22,6 +34,34 @@
 
 .tabbed_navigation_single {
   list-style-type: none;
+}
+
+.tabbed_navigation_secondary {
+  /* background-color: #db0000; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.nav-element {
+  margin-right: 10px;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+
+  object-fit: cover;
+}
+
+.user {
+  background-image: url("../../../public/user.png");
+}
+
+ion-icon {
+  font-size: 32px;
+  color: white;
 }
 
 a {
